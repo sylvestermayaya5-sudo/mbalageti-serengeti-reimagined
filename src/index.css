@@ -8,61 +8,61 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Luxury Safari Color Palette */
-    --background: 35 25% 96%;
-    --foreground: 30 10% 15%;
+    /* One Nature Inspired - Warm Beige & Gold Palette */
+    --background: 40 30% 98%;
+    --foreground: 30 15% 20%;
 
-    --card: 35 30% 98%;
-    --card-foreground: 30 10% 15%;
+    --card: 40 25% 96%;
+    --card-foreground: 30 15% 20%;
 
-    --popover: 35 30% 98%;
-    --popover-foreground: 30 10% 15%;
+    --popover: 40 25% 96%;
+    --popover-foreground: 30 15% 20%;
 
-    /* Golden Savanna - Primary luxury accent */
-    --primary: 38 70% 45%;
-    --primary-foreground: 35 25% 96%;
+    /* Golden Accent - Primary luxury color */
+    --primary: 38 45% 55%;
+    --primary-foreground: 40 30% 98%;
 
-    /* Earth Brown - Secondary grounding color */
-    --secondary: 25 30% 35%;
-    --secondary-foreground: 35 25% 96%;
+    /* Warm Beige - Secondary grounding color */
+    --secondary: 35 35% 75%;
+    --secondary-foreground: 30 15% 20%;
 
-    /* Muted tones */
-    --muted: 35 15% 88%;
-    --muted-foreground: 30 8% 45%;
+    /* Muted warm tones */
+    --muted: 40 20% 90%;
+    --muted-foreground: 30 10% 40%;
 
-    /* Sage Green - Nature accent */
-    --accent: 140 20% 45%;
-    --accent-foreground: 35 25% 96%;
+    /* Accent - Soft gold */
+    --accent: 42 50% 65%;
+    --accent-foreground: 30 15% 20%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 35 25% 96%;
+    --destructive-foreground: 40 30% 98%;
 
-    --border: 35 20% 85%;
-    --input: 35 20% 85%;
-    --ring: 38 70% 45%;
+    --border: 40 15% 85%;
+    --input: 40 15% 90%;
+    --ring: 38 45% 55%;
 
-    --radius: 0.5rem;
+    --radius: 0rem;
 
-    /* Safari-specific tokens */
-    --savanna-gold: 42 88% 55%;
-    --earth-brown: 25 45% 25%;
-    --sage-green: 140 25% 50%;
-    --sunset-orange: 20 80% 60%;
-    --warm-beige: 35 25% 90%;
+    /* One Nature color tokens */
+    --sand-beige: 40 30% 85%;
+    --savanna-gold: 38 45% 55%;
+    --charcoal: 30 10% 25%;
+    --ivory: 40 20% 95%;
+    --muted-green: 140 15% 50%;
     
     /* Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(25 45% 25% / 0.8), hsl(38 70% 45% / 0.6));
-    --gradient-savanna: linear-gradient(180deg, hsl(42 88% 55% / 0.1), hsl(25 45% 25% / 0.05));
-    --gradient-overlay: linear-gradient(180deg, hsl(30 10% 15% / 0.7), transparent);
+    --gradient-hero: linear-gradient(135deg, hsl(30 15% 20% / 0.4), hsl(38 45% 55% / 0.3));
+    --gradient-beige: linear-gradient(180deg, hsl(40 30% 98%), hsl(40 25% 92%));
+    --gradient-overlay: linear-gradient(180deg, hsl(30 15% 20% / 0.6), transparent);
     
     /* Shadows */
-    --shadow-luxury: 0 20px 60px -10px hsl(25 45% 25% / 0.3);
-    --shadow-card: 0 10px 40px -5px hsl(25 45% 25% / 0.15);
-    --shadow-glow: 0 0 50px hsl(42 88% 55% / 0.3);
+    --shadow-luxury: 0 10px 40px -10px hsl(30 15% 20% / 0.15);
+    --shadow-card: 0 4px 20px -5px hsl(30 15% 20% / 0.1);
+    --shadow-soft: 0 2px 10px hsl(30 15% 20% / 0.08);
 
     /* Transitions */
-    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-    --transition-luxury: all 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-luxury: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   }
 }
 

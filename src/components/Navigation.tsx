@@ -25,13 +25,15 @@ const Navigation = () => {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? "bg-background/95 backdrop-blur-md shadow-card" : "bg-transparent"
+        isScrolled ? "bg-background/98 backdrop-blur-md shadow-soft" : "bg-transparent"
       }`}
     >
       <nav className="container mx-auto px-4 py-4 flex items-center justify-between">
         <button
           onClick={() => scrollToSection("hero")}
-          className="font-serif text-2xl font-bold text-primary hover:text-primary/80 transition-colors"
+          className={`font-serif text-2xl font-bold transition-colors ${
+            isScrolled ? "text-primary hover:text-primary/80" : "text-primary-foreground hover:text-primary-foreground/80"
+          }`}
         >
           Mbalageti Serengeti
         </button>
@@ -40,42 +42,56 @@ const Navigation = () => {
         <div className="hidden md:flex items-center gap-8">
           <button
             onClick={() => scrollToSection("about")}
-            className="text-foreground/80 hover:text-primary transition-colors font-medium"
+            className={`transition-colors font-medium ${
+              isScrolled ? "text-foreground/80 hover:text-primary" : "text-primary-foreground/90 hover:text-primary-foreground"
+            }`}
           >
             About
           </button>
           <button
             onClick={() => scrollToSection("accommodation")}
-            className="text-foreground/80 hover:text-primary transition-colors font-medium"
+            className={`transition-colors font-medium ${
+              isScrolled ? "text-foreground/80 hover:text-primary" : "text-primary-foreground/90 hover:text-primary-foreground"
+            }`}
           >
             Accommodation
           </button>
           <button
             onClick={() => scrollToSection("experiences")}
-            className="text-foreground/80 hover:text-primary transition-colors font-medium"
+            className={`transition-colors font-medium ${
+              isScrolled ? "text-foreground/80 hover:text-primary" : "text-primary-foreground/90 hover:text-primary-foreground"
+            }`}
           >
             Experiences
           </button>
           <button
             onClick={() => scrollToSection("gallery")}
-            className="text-foreground/80 hover:text-primary transition-colors font-medium"
+            className={`transition-colors font-medium ${
+              isScrolled ? "text-foreground/80 hover:text-primary" : "text-primary-foreground/90 hover:text-primary-foreground"
+            }`}
           >
             Gallery
           </button>
           <button
             onClick={() => scrollToSection("contact")}
-            className="text-foreground/80 hover:text-primary transition-colors font-medium"
+            className={`transition-colors font-medium ${
+              isScrolled ? "text-foreground/80 hover:text-primary" : "text-primary-foreground/90 hover:text-primary-foreground"
+            }`}
           >
             Contact
           </button>
-          <Button variant="hero" size="default" onClick={() => scrollToSection("contact")}>
+          <Button 
+            className={isScrolled ? "bg-primary hover:bg-primary/90 text-primary-foreground" : "bg-primary-foreground hover:bg-primary-foreground/90 text-primary"}
+            size="default" 
+            onClick={() => scrollToSection("contact")}
+          >
             Book Your Stay
           </Button>
         </div>
 
         {/* Mobile Menu Button */}
         <button
-          className="md:hidden text-foreground"
+          className={`md:hidden ${isScrolled ? "text-foreground" : "text-primary-foreground"}`}
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
         >
           {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}

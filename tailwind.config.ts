@@ -51,11 +51,11 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        'sand-beige': "hsl(var(--sand-beige))",
         'savanna-gold': "hsl(var(--savanna-gold))",
-        'earth-brown': "hsl(var(--earth-brown))",
-        'sage-green': "hsl(var(--sage-green))",
-        'sunset-orange': "hsl(var(--sunset-orange))",
-        'warm-beige': "hsl(var(--warm-beige))",
+        'charcoal': "hsl(var(--charcoal))",
+        'ivory': "hsl(var(--ivory))",
+        'muted-green': "hsl(var(--muted-green))",
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -98,13 +98,13 @@ export default {
       },
       backgroundImage: {
         'gradient-hero': 'var(--gradient-hero)',
-        'gradient-savanna': 'var(--gradient-savanna)',
+        'gradient-beige': 'var(--gradient-beige)',
         'gradient-overlay': 'var(--gradient-overlay)',
       },
       boxShadow: {
         'luxury': 'var(--shadow-luxury)',
         'card': 'var(--shadow-card)',
-        'glow': 'var(--shadow-glow)',
+        'soft': 'var(--shadow-soft)',
       },
       transitionDuration: {
         'smooth': 'var(--transition-smooth)',

@@ -1,9 +1,12 @@
 import Navigation from "@/components/Navigation";
 import Hero from "@/components/Hero";
-import About from "@/components/About";
-import Accommodation from "@/components/Accommodation";
-import Experiences from "@/components/Experiences";
-import Gallery from "@/components/Gallery";
+import IntroSection from "@/components/IntroSection";
+import DiscoverSection from "@/components/DiscoverSection";
+import ComfortSection from "@/components/ComfortSection";
+import ExperiencesSection from "@/components/ExperiencesSection";
+import ConservationSection from "@/components/ConservationSection";
+import BlogSection from "@/components/BlogSection";
+import TripPlanningSection from "@/components/TripPlanningSection";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
@@ -13,10 +16,13 @@ const Index = () => {
       <Navigation />
       <main>
         <Hero />
-        <About />
-        <Accommodation />
-        <Experiences />
-        <Gallery />
+        <IntroSection />
+        <DiscoverSection />
+        <ComfortSection />
+        <ExperiencesSection />
+        <ConservationSection />
+        <BlogSection />
+        <TripPlanningSection />
         <Contact />
       </main>
       <Footer />
