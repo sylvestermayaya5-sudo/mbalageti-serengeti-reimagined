@@ -131,7 +131,7 @@ const Footer = () => {
       <div className="border-t border-primary-foreground/20 py-6">
         <div className="container mx-auto px-4 text-center text-sm text-primary-foreground/60">
           <p>&copy; {currentYear} Mbalageti Serengeti. All rights reserved.</p>
-          <p className="mt-2">Committed to sustainable tourism and wildlife conservation.</p>
+          <p className="mt-2">Designed by Kena's Group.</p>
         </div>
       </div>
     </footer>

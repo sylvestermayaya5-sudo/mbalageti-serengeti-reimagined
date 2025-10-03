@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logo from "@/assets/logo-color-removebg-preview.png";
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -31,11 +32,9 @@ const Navigation = () => {
       <nav className="container mx-auto px-4 py-4 flex items-center justify-between">
         <button
           onClick={() => scrollToSection("hero")}
-          className={`font-serif text-2xl font-bold transition-colors ${
-            isScrolled ? "text-primary hover:text-primary/80" : "text-primary-foreground hover:text-primary-foreground/80"
-          }`}
+          className="transition-opacity hover:opacity-80"
         >
-          Mbalageti Serengeti
+          <img src={logo} alt="Mbalageti Serengeti" className="h-12 w-auto" />
         </button>
 
         {/* Desktop Navigation */}
