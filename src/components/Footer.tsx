@@ -39,7 +39,7 @@ const Footer = () => {
           <div className="grid md:grid-cols-4 gap-8">
             {/* Logo & About */}
             <div>
-              <img src={logo} alt="Mbalageti Serengeti" className="h-18 w-auto mb-4" />
+              <img src={logo} alt="Mbalageti Serengeti" className="h-14 w-auto mb-4" />
               <p className="text-primary-foreground/80 text-sm leading-relaxed">
                 Where wilderness meets luxury in the heart of the Great Migration.
               </p>
