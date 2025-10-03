@@ -1,6 +1,7 @@
 import { Facebook, Instagram, Linkedin, Youtube, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import logo from "@/assets/logo-color-removebg-preview.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -38,7 +39,7 @@ const Footer = () => {
           <div className="grid md:grid-cols-4 gap-8">
             {/* Logo & About */}
             <div>
-              <h3 className="font-serif text-2xl font-bold mb-4">Mbalageti Serengeti</h3>
+              <img src={logo} alt="Mbalageti Serengeti" className="h-14 w-auto mb-4" />
               <p className="text-primary-foreground/80 text-sm leading-relaxed">
                 Where wilderness meets luxury in the heart of the Great Migration.
               </p>

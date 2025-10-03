@@ -1,6 +1,6 @@
-import lodgeRoom from "@/assets/lodge-room.jpg";
-import riverView from "@/assets/river-view.jpg";
-import dining from "@/assets/dining.jpg";
+import general2 from "@/assets/general-2.jpg";
+import slider03 from "@/assets/slider-03.jpg";
+import campActivity2 from "@/assets/camp-activity-2.jpg";
 import { Button } from "@/components/ui/button";
 
 const DiscoverSection = () => {
@@ -43,8 +43,8 @@ const DiscoverSection = () => {
 
             <div className="overflow-hidden rounded shadow-luxury animate-scale-in">
               <img
-                src={lodgeRoom}
-                alt="Luxury tented suite interior with king bed and elegant furnishings"
+                src={general2}
+                alt="Luxury tented suite with private terrace overlooking the bush"
                 className="w-full h-96 object-cover hover:scale-105 transition-transform duration-700"
               />
             </div>
@@ -54,8 +54,8 @@ const DiscoverSection = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="overflow-hidden rounded shadow-luxury animate-scale-in md:order-1">
               <img
-                src={riverView}
-                alt="Panoramic view of Serengeti plains from exclusive villa"
+                src={slider03}
+                alt="Stunning sunset view from private outdoor bath overlooking the Serengeti"
                 className="w-full h-96 object-cover hover:scale-105 transition-transform duration-700"
               />
             </div>
@@ -110,8 +110,8 @@ const DiscoverSection = () => {
 
             <div className="overflow-hidden rounded shadow-luxury animate-scale-in">
               <img
-                src={dining}
-                alt="Elegant bush dining setup with lanterns and table setting"
+                src={campActivity2}
+                alt="Bush dining experience with traditional Maasai blankets and lanterns"
                 className="w-full h-96 object-cover hover:scale-105 transition-transform duration-700"
               />
             </div>

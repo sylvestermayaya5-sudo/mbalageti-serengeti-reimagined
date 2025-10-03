@@ -1,23 +1,23 @@
 import { Card, CardContent } from "@/components/ui/card";
-import gameDrive from "@/assets/game-drive.jpg";
-import riverView from "@/assets/river-view.jpg";
-import lodgeRoom from "@/assets/lodge-room.jpg";
+import slider01 from "@/assets/slider-01.jpg";
+import slider05 from "@/assets/slider-05.jpg";
+import campActivity3 from "@/assets/camp-activity-3.jpg";
 
 const blogPosts = [
   {
-    image: gameDrive,
+    image: slider01,
     category: "WILDLIFE",
     title: "The Best Time to See the Great Migration at Mbalageti",
     excerpt: "Discover the optimal months to witness thousands of wildebeest crossing the Mbalageti River.",
   },
   {
-    image: riverView,
+    image: slider05,
     category: "SAFARI TIPS",
     title: "A Complete Guide to Your First Serengeti Safari",
     excerpt: "Everything you need to know before embarking on your African adventure.",
   },
   {
-    image: lodgeRoom,
+    image: campActivity3,
     category: "CONSERVATION",
     title: "How Luxury Lodges Support Wildlife Conservation",
     excerpt: "Learn about our commitment to preserving the Serengeti ecosystem for future generations.",
