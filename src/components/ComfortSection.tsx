@@ -1,4 +1,4 @@
-import riverView from "@/assets/river-view.jpg";
+import riverView from "@/assets/presidential-1.jpg";
 
 const ComfortSection = () => {
   return (

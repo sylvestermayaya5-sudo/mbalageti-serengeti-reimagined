@@ -1,5 +1,5 @@
-import gameDrive from "@/assets/game-drive.jpg";
-import lodgeRoom from "@/assets/lodge-room.jpg";
+import gameDrive from "@/assets/general-3.jpg";
+import lodgeRoom from "@/assets/lodge-1.jpg";
 import { Button } from "@/components/ui/button";
 
 const IntroSection = () => {

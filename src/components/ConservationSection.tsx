@@ -1,4 +1,4 @@
-import heroImage from "@/assets/hero-serengeti.jpg";
+import heroImage from "@/assets/presidential-full-room.png";
 
 const ConservationSection = () => {
   return (

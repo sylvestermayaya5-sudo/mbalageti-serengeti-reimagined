@@ -1,4 +1,4 @@
-import pool from "@/assets/pool.jpg";
+import pool from "@/assets/presidential-2.jpg";
 
 const ExperiencesSection = () => {
   return (

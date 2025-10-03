@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import gameDrive from "@/assets/game-drive.jpg";
+import gameDrive from "@/assets/tented-3.jpg";
 
 const TripPlanningSection = () => {
   const scrollToContact = () => {
