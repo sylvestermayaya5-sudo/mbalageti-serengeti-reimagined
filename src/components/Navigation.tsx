@@ -34,7 +34,7 @@ const Navigation = () => {
           onClick={() => scrollToSection("hero")}
           className="transition-opacity hover:opacity-80"
         >
-          <img src={logo} alt="Mbalageti Serengeti" className="h-16 w-auto" />
+          <img src={logo} alt="Mbalageti Serengeti" className="h-20 w-auto" />
         </button>
 
         {/* Desktop Navigation */}
